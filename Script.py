@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import time
 
 def test_login_and_checkout():
-    driver = webdriver.Chrome()  # Asegúrate de que chromedriver.exe esté en la carpeta
+    driver = webdriver.Chrome()  
     driver.maximize_window()
     
     try:
